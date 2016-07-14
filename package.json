@@ -1,16 +1,16 @@
 {
-  "name": "simple-node-project-boilerplate",
+  "name": "explode-compiled-compass-css",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/nodemon/bin/nodemon.js --exec 'npm run lint && npm test'",
+    "start": "./node_modules/nodemon/bin/nodemon.js -q --exec 'npm test'",
     "lint": "eslint **/*.js",
     "test": "node ./tests"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ianstarz/simple-node-project-boilerplate.git"
+    "url": "git+https://github.com/ianstarz/explode-compiled-compass-css.git"
   },
   "keywords": [
     "htmlbars",
@@ -19,14 +19,20 @@
   "author": "ianstarz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ianstarz/simple-node-project-boilerplate/issues"
+    "url": "https://github.com/ianstarz/explode-compiled-compass-css/issues"
   },
-  "homepage": "https://github.com/ianstarz/simple-node-project-boilerplate#readme",
+  "homepage": "https://github.com/ianstarz/explode-compiled-compass-css#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^2.11.1",
     "mocha": "^2.5.3",
     "nodemon": "^1.9.2",
-    "walk-sync": "^0.2.6"
+    "rsvp": "^3.2.1",
+    "walk-sync": "^0.2.7"
+  },
+  "dependencies": {
+    "exists-sync": "0.0.3",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.5.3"
   }
 }

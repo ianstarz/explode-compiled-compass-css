@@ -1,10 +1,5 @@
-# Simple node project boiler plate
-
-A code base to base simple node projects that utilizes:
-
-- **eslint** for js linting
-- **mocha** for testing
-- **nodemon** for continuous development
+Takes a compiled compass css file, reads it, and places each line of the file
+in its corresponding original file in the same directory.
 
 ---
 
