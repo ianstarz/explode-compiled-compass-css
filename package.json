@@ -12,10 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/ianstarz/explode-compiled-compass-css.git"
   },
-  "keywords": [
-    "htmlbars",
-    "htmlbars-ast-plugin"
-  ],
+  "keywords": [],
   "author": "ianstarz",
   "license": "MIT",
   "bugs": {
